@@ -40,6 +40,7 @@ object Accounts {
     var userBlocked = false
         private set
 
+    
     @JvmStatic
     val cookieSESSDATA get() = get()?.cookie?.cookies?.find { it.name == "SESSDATA" }?.value.orEmpty()
 
