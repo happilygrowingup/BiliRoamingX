@@ -37,7 +37,7 @@ object Accounts {
     private var accountInfoCache: AccountInfo? = null
 
     @JvmStatic
-    var userBlocked = cachePrefs.getBoolean("user_blocked_$mid", false)
+    var userBlocked = false
         private set
 
     @JvmStatic
